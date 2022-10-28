@@ -35,6 +35,8 @@ nav {
 
 .right-nav img {
   padding: 20px;
+  filter: invert(49%) sepia(100%) saturate(311%) hue-rotate(352deg)
+    brightness(92%) contrast(93%);
 }
 
 .welcome-section {
@@ -207,8 +209,8 @@ h2 {
   width: 250px;
   height: 400px;
   margin: 10px;
-  border: 2px solid black;
   background-color: white;
+  border-radius: 10px;
 }
 
 .background-color-trending {
@@ -230,8 +232,8 @@ h2 {
   width: 250px;
   height: 400px;
   margin: 10px;
-  border: 2px solid black;
   background-color: white;
+  border-radius: 10px;
 }
 
 .footer {
